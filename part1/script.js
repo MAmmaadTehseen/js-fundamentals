@@ -97,6 +97,7 @@ bill >= 50 && bill <= 300
 console.log(
   `the bill was ${bill},the tip was ${tip},and the total value is${bill + tip}`
 );
+<<<<<<< HEAD
 
 // Coding Challenge #5
 // Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new
@@ -256,3 +257,5 @@ for (let i = 0; i < bills.length; i++) {
   totals.push(calcTip(bills[i]) + bills[i]);
 }
 console.log(tips, totals);
+=======
+>>>>>>> 6d4718fbac2a30d7d6da5881093a79c14f9b731d
