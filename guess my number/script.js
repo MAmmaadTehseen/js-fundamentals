@@ -11,7 +11,7 @@ document.querySelector(`.score`).textContent = 20;
 console.log((document.querySelector(`.guess`).value ));*/
 let highScore = 0;
 let score = 20;
-const secretNumber = Math.trunc(Math.random() * 20);
+let secretNumber = Math.trunc(Math.random() * 20);
 //document.querySelector(`.number`).textContent = secretNumber;
 
 const compare = function () {
@@ -51,7 +51,7 @@ document.addEventListener(`keydown`, function (e) {
 document.querySelector(`.again`).addEventListener(`click`, function () {
   score = 20;
   document.querySelector(`.score`).textContent = score;
-  const secretNumber = Math.trunc(Math.random() * 20);
+  secretNumber = Math.trunc(Math.random() * 20);
   document.querySelector(`.number`).textContent = secretNumber;
   document.querySelector(`.message`).textContent = `Start guessing...`;
   document.querySelector(`body`).style.backgroundColor = `#222`;

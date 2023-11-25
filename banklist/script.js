@@ -13,10 +13,10 @@ const account2 = {
 };
 
 const account3 = {
-  owner: 'Ammaad Khaan',
+  owner: 'Naimat Ullah',
   movements: [200, 200, 340, -300, 400000, -20, 50, 400, -460],
   interestRate: 0,
-  pin: 9046,
+  pin: 1122,
 };
 
 const account4 = {
